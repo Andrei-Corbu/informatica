@@ -6,7 +6,8 @@
 using namespace std;
 //ifstream fin("date.in");
 //ofstream fout("date.out");
-const int mxn=1e9;
+const int mxn=1e3;
+const int nax=1e9;
 int main(){
 	
 	cout<<endl; return 0;
