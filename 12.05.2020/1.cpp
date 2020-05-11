@@ -2,8 +2,8 @@
 #include <fstream>
 using namespace std;
 ifstream fin("arbore.txt");
-const int mxn=1e3;
-const int nax=1e5;
+const int mxn=100;
+const int nax=10000;
 int fr[nax]={0};
 int niv[nax]={0};
 int a[mxn][mxn], t[nax],v[nax],n;
