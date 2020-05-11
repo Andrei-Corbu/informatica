@@ -1,11 +1,7 @@
 #include <iostream>
 #include <fstream>
-//#include <cstring>
-//#include <cmath>
-//#include <algorithm>
 using namespace std;
 ifstream fin("arbore.txt");
-//ofstream fout("date.out");
 const int mxn=1e3;
 const int nax=1e5;
 int fr[nax]={0};
