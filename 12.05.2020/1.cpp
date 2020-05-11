@@ -2,9 +2,11 @@
 #include <fstream>
 using namespace std;
 ifstream fin("arbore.txt");
-int fr[10000]={0};
-int niv[10000]={0};
-int a[100][100], t[10000],v[10000],n;
+const int nax=1e5;
+const int mxn=1e3;
+int fr[nax]={0};
+int niv[nax]={0};
+int a[mxn][mxn], t[nax],v[nax],n;
 int radacina(){
 	for(int i=1;i<=n;++i)
 		if(t[i]==0)
