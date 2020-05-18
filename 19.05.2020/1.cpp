@@ -1,13 +1,7 @@
 #include <iostream>
 #include <fstream>
-//#include <cstring>
-//#include <cmath>
-//#include <algorithm>
 using namespace std;
 ifstream fin("date.in");
-//ofstream fout("date.out");
-//const int mxn=1e3;
-//const int nax=1e5;
 int a[1001][1001],coada[1001],viz[1001], g1[1001], g2[1001];
 int i,n,el,j,p,u,pl,m,x,y,vf;
 void citire(){
