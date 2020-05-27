@@ -38,5 +38,4 @@ int main(){
         p[x]=0;
     }
     cout<<ct<<"\n"; return 0;
-    return 0;
 }
